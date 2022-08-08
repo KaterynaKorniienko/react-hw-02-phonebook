@@ -1,0 +1,29 @@
+
+.wrap {
+  margin: 0.7rem;
+  padding: 0;
+}
+ul {
+  padding: 0 1rem;
+  width: 400px;
+  max-width: fit-content;
+}
+
+li {
+  margin: 0.4rem 0 0.4rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.name,
+.tel {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+.btn_list {
+  margin: 0.2rem;
+  padding: 0;
+}
